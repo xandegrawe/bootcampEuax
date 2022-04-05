@@ -15,17 +15,17 @@
     <img src="./images/logo.png" alt="Logo do grupo euax" />
   </header>
   <main class="main_content">
-    <form action="" class="form">
+    <form action="javascript:test()" class="form">
       <h2>Cadastro para o Bootcamp</h2>
       <p>
         Informe seus dados pessoais e esteja pronto para entrar nessa jornada
       </p>
       <label class="form_label" for="name">Nome Completo</label>
-      <input class="form_input" type="text" id="name" placeholder="Insira seu nome completo">
+      <input class="form_input" type="text" id="name" placeholder="Insira seu nome completo" required>
       <label class="form_label" for="mail">E-mail</label>
-      <input class="form_input" type="text" id="mail" placeholder="Insira seu e-mail">
+      <input class="form_input" type="text" id="mail" placeholder="Insira seu e-mail" required >
       <label class="form_label" for="area">Área de atuação</label>
-      <select class="form_input" id="area">
+      <select class="form_input" id="area" required>
         <option value="" selected>Selecione uma opção</option>
         <option value="">Dev</option>
         <option value="">QA</option>
@@ -33,5 +33,6 @@
       <button type="submit" class="form_button">Embarcar nessa jornada!</button>
     </form>
   </main>
+  <script src="index.js" type="text/javascript"></script>
 </body>
 </html>
